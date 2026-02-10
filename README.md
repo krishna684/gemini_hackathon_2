@@ -1,6 +1,6 @@
 # Socratic Mirror Agent
 
-AI-powered multimodal coaching system with real-time biometric feedback, voice interaction, and a 3D avatar — built for the University of Missouri (Mizzou) Gemini hackathon.
+AI-powered multimodal coaching system with real-time biometric feedback, voice interaction, and a 3D avatar — built for Gemini hackathon.
 
 ## What It Does
 
@@ -15,7 +15,7 @@ Three coaching modes are available:
 ## Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+| ----- | ---------- |
 | Frontend | Next.js 14, TypeScript, React Three Fiber, KaTeX |
 | 3D Avatar | Ready Player Me `.glb`, Three.js bone rigging, procedural lip-sync |
 | Voice | Web Speech API (recognition), browser SpeechSynthesis (TTS) |
@@ -29,18 +29,20 @@ Three coaching modes are available:
 
 - **Node.js 18+**
 - **Python 3.10+**
-- **Gemini API key** — get one at https://aistudio.google.com/apikey
+- **Gemini API key** — get one at <https://aistudio.google.com/apikey>
 - A webcam and microphone
 - A modern browser with WebGL support (Chrome or Edge recommended)
 
 ### 1. Install Dependencies
 
 **Frontend:**
+
 ```bash
 npm install
 ```
 
 **Backend:**
+
 ```bash
 cd backend
 python -m venv venv
@@ -58,6 +60,7 @@ cp .env.local.example .env.local
 ```
 
 Edit `.env.local`:
+
 ```env
 NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
 NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
@@ -65,6 +68,7 @@ NEXT_PUBLIC_RPM_AVATAR_URL=/avatars/6986dfdd47a75ab0c820deb2.glb
 ```
 
 Create `backend/.env`:
+
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
 FRONTEND_URL=http://localhost:3000
@@ -75,22 +79,26 @@ FRONTEND_URL=http://localhost:3000
 You need **two terminals**:
 
 **Terminal 1 — Backend (FastAPI on port 8000):**
+
 ```bash
 cd backend
 venv\Scripts\activate
 python main.py
 ```
+
 Or from the project root:
+
 ```bash
 npm run backend
 ```
 
 **Terminal 2 — Frontend (Next.js on port 3000):**
+
 ```bash
 npm run dev
 ```
 
-Open **http://localhost:3000** in your browser.
+Open <http://localhost:3000> in your browser.
 
 ## How to Use
 
@@ -107,7 +115,7 @@ Open **http://localhost:3000** in your browser.
 
 ## Project Structure
 
-```
+```text
 socratic-mirror-agent/
 ├── src/
 │   ├── app/
@@ -159,7 +167,7 @@ npm start
 
 ## Architecture Overview
 
-```
+```text
 Browser                          Server
 ┌──────────────────┐       ┌──────────────────┐
 │  Next.js App     │       │  FastAPI          │
@@ -195,6 +203,5 @@ MIT
 
 ## Acknowledgments
 
-- University of Missouri (Mizzou)
-- Google Gemini team
+- Google Gemini
 - Ready Player Me
