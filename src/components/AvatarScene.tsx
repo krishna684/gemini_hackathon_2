@@ -3,6 +3,7 @@
 import { Suspense, useEffect } from 'react';
 import { Canvas, useThree } from '@react-three/fiber';
 import { Environment } from '@react-three/drei';
+import * as THREE from 'three';
 import AvatarModel from './AvatarModel';
 
 interface AvatarSceneProps {
@@ -124,12 +125,15 @@ function CameraAim() {
         const aspect = size.width > 0 && size.height > 0 ? size.width / size.height : 1;
         if (aspect < 1) {
             camera.position.set(0, 1.05, 1.55);
-            camera.fov = 26;
         } else {
             camera.position.set(0, 1.1, 1.75);
-            camera.fov = 23;
         }
         camera.lookAt(0, 0.95, 0);
+
+        if ((camera as THREE.PerspectiveCamera).isPerspectiveCamera) {
+            const persp = camera as THREE.PerspectiveCamera;
+            persp.fov = aspect < 1 ? 26 : 23;
+        }
         camera.updateProjectionMatrix();
     }, [camera, size.height, size.width]);
 
