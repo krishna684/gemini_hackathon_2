@@ -1,0 +1,436 @@
+{
+  "session_id": "57cbb7df-4705-45cf-a1c7-3a226a8bbfb7",
+  "user_id": "user_rb7po8job",
+  "mode": "interview",
+  "start_time": "2026-02-08T21:40:01.729275",
+  "end_time": "2026-02-08T21:41:01.119495",
+  "context_history": [],
+  "biometric_timeline": [
+    {
+      "heart_rate": 43,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 100,
+      "timestamp": "2026-02-08T21:40:28.841169"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 100,
+      "timestamp": "2026-02-08T21:40:29.873607"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 88.22560551676825,
+      "timestamp": "2026-02-08T21:40:30.907378"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 70.37903372778653,
+      "timestamp": "2026-02-08T21:40:31.939248"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 62.27770894758393,
+      "timestamp": "2026-02-08T21:40:32.975161"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.7247736087623,
+      "timestamp": "2026-02-08T21:40:34.005495"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.23481781619996,
+      "timestamp": "2026-02-08T21:40:35.041178"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 60.851265592526,
+      "timestamp": "2026-02-08T21:40:36.090335"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.80462796144187,
+      "timestamp": "2026-02-08T21:40:37.119562"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.67753548249373,
+      "timestamp": "2026-02-08T21:40:38.158301"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.50074229946237,
+      "timestamp": "2026-02-08T21:40:39.192767"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.384900812115205,
+      "timestamp": "2026-02-08T21:40:40.237085"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.35267689978447,
+      "timestamp": "2026-02-08T21:40:41.253304"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 60.6245410464025,
+      "timestamp": "2026-02-08T21:40:42.286970"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.137601930169545,
+      "timestamp": "2026-02-08T21:40:43.320418"
+    },
+    {
+      "heart_rate": 41,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.248729791777606,
+      "timestamp": "2026-02-08T21:40:44.335924"
+    },
+    {
+      "heart_rate": 41,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.268496822680426,
+      "timestamp": "2026-02-08T21:40:45.351132"
+    },
+    {
+      "heart_rate": 41,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.30058275586364,
+      "timestamp": "2026-02-08T21:40:46.388789"
+    },
+    {
+      "heart_rate": 41,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.47389154474441,
+      "timestamp": "2026-02-08T21:40:47.385365"
+    },
+    {
+      "heart_rate": 41,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.30522914017386,
+      "timestamp": "2026-02-08T21:40:48.435660"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.2501222461091,
+      "timestamp": "2026-02-08T21:40:49.485645"
+    },
+    {
+      "heart_rate": 41,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.22815854802438,
+      "timestamp": "2026-02-08T21:40:50.501824"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.286021335080456,
+      "timestamp": "2026-02-08T21:40:51.535981"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.259699172000346,
+      "timestamp": "2026-02-08T21:40:52.569452"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.432715298208734,
+      "timestamp": "2026-02-08T21:40:53.619150"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 61.42259248867003,
+      "timestamp": "2026-02-08T21:40:54.656762"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.720788042345895,
+      "timestamp": "2026-02-08T21:40:55.686869"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.671817150896764,
+      "timestamp": "2026-02-08T21:40:56.699970"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.58939490755174,
+      "timestamp": "2026-02-08T21:40:57.734442"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.262295661967556,
+      "timestamp": "2026-02-08T21:40:58.769708"
+    },
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.925794216708724,
+      "timestamp": "2026-02-08T21:40:59.782501"
+    },
+    {
+      "heart_rate": 41,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.52091318065197,
+      "timestamp": "2026-02-08T21:41:00.782774"
+    }
+  ],
+  "interactions": [],
+  "biometric_baseline": {
+    "resting_heart_rate": 42.1,
+    "stress_threshold": 50.52,
+    "calibration_date": "2026-02-08T21:40:38.158325"
+  },
+  "barge_in_sensitivity": 0.7,
+  "persona": null,
+  "duration": 59.39022,
+  "tutoring_step": 0,
+  "interview_state": {
+    "stage": "ready",
+    "role": "",
+    "job_description": "Software Engineer at Google - Design and implement scalable backend systems using Go and distributed computing",
+    "resume": "",
+    "started": false,
+    "start_time": null,
+    "question_count": 0,
+    "max_questions": 10,
+    "min_questions": 6,
+    "target_minutes": 10,
+    "max_minutes": 15,
+    "current_question": "",
+    "current_section": "",
+    "hint_used": false,
+    "last_question_time": null
+  },
+  "public_speaking_state": {
+    "stage": "init",
+    "speaking_type": "",
+    "topic": "",
+    "script": "",
+    "started": false,
+    "start_time": null,
+    "main_speech_start": null,
+    "followup_index": 0,
+    "followup_total": 3,
+    "word_count": 0,
+    "filler_count": 0,
+    "pause_count": 0,
+    "long_pause_count": 0
+  }
+}

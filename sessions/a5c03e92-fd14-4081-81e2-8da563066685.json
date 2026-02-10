@@ -1,0 +1,78 @@
+{
+  "session_id": "a5c03e92-fd14-4081-81e2-8da563066685",
+  "user_id": "user_ptzgozjzo",
+  "mode": "tutoring",
+  "start_time": "2026-02-08T22:45:39.653258",
+  "end_time": null,
+  "context_history": [
+    {
+      "role": "user",
+      "content": "I want to learn about: css. DO NOT greet me. Immediately start lesson Step 1 by explaining the core concept on the whiteboard.",
+      "visual_content": "",
+      "timestamp": "2026-02-08T22:45:50.701260"
+    },
+    {
+      "role": "assistant",
+      "content": "CSS, or Cascading Style Sheets, is the language used to describe the presentation of a web page. While HTML defines the structure (like bones), CSS defines the aesthetics (like skin, clothes, and colors).",
+      "visual_content": {
+        "command": "DRAW_BOXES_AND_ARROWS",
+        "detail": "HTML (Structure), CSS (Style), Web Page (Result), HTML provides the content while CSS applies the visual layer to create the final page."
+      },
+      "timestamp": "2026-02-08T22:46:10.328666"
+    }
+  ],
+  "biometric_timeline": [],
+  "interactions": [
+    {
+      "role": "user",
+      "content": "I want to learn about: css. DO NOT greet me. Immediately start lesson Step 1 by explaining the core concept on the whiteboard.",
+      "timestamp": "2026-02-08T22:45:50.701260"
+    },
+    {
+      "role": "assistant",
+      "content": "CSS, or Cascading Style Sheets, is the language used to describe the presentation of a web page. While HTML defines the structure (like bones), CSS defines the aesthetics (like skin, clothes, and colors).",
+      "visual_content": {
+        "command": "DRAW_BOXES_AND_ARROWS",
+        "detail": "HTML (Structure), CSS (Style), Web Page (Result), HTML provides the content while CSS applies the visual layer to create the final page."
+      },
+      "timestamp": "2026-02-08T22:46:10.328666"
+    }
+  ],
+  "biometric_baseline": null,
+  "barge_in_sensitivity": 0.7,
+  "persona": null,
+  "duration": 0,
+  "tutoring_step": 1,
+  "interview_state": {
+    "stage": "init",
+    "role": "",
+    "job_description": "",
+    "resume": "",
+    "started": false,
+    "start_time": null,
+    "question_count": 0,
+    "max_questions": 10,
+    "min_questions": 6,
+    "target_minutes": 10,
+    "max_minutes": 15,
+    "current_question": "",
+    "current_section": "",
+    "hint_used": false,
+    "last_question_time": null
+  },
+  "public_speaking_state": {
+    "stage": "init",
+    "speaking_type": "",
+    "topic": "",
+    "script": "",
+    "started": false,
+    "start_time": null,
+    "main_speech_start": null,
+    "followup_index": 0,
+    "followup_total": 3,
+    "word_count": 0,
+    "filler_count": 0,
+    "pause_count": 0,
+    "long_pause_count": 0
+  }
+}

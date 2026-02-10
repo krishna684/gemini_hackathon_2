@@ -1,0 +1,78 @@
+{
+  "session_id": "396238fc-b6fb-4404-af37-d184161109e9",
+  "user_id": "user_a0gptzver",
+  "mode": "tutoring",
+  "start_time": "2026-02-08T23:00:51.556501",
+  "end_time": null,
+  "context_history": [
+    {
+      "role": "user",
+      "content": "I want to learn about: css. DO NOT greet me. Immediately start lesson Step 1 by explaining the core concept on the whiteboard.",
+      "visual_content": "",
+      "timestamp": "2026-02-08T23:00:57.646283"
+    },
+    {
+      "role": "assistant",
+      "content": "CSS stands for Cascading Style Sheets, and its primary purpose is to separate a website's content from its visual design. While HTML provides the structural skeleton of a page, CSS acts as the skin, clothing, and makeup that defines how that structure looks to the user.",
+      "visual_content": {
+        "command": "DRAW_BOXES_AND_ARROWS",
+        "detail": "HTML (Structure), CSS (Style), Browser (Final Page): CSS applies design to HTML to create the Final Page."
+      },
+      "timestamp": "2026-02-08T23:01:09.276286"
+    }
+  ],
+  "biometric_timeline": [],
+  "interactions": [
+    {
+      "role": "user",
+      "content": "I want to learn about: css. DO NOT greet me. Immediately start lesson Step 1 by explaining the core concept on the whiteboard.",
+      "timestamp": "2026-02-08T23:00:57.646283"
+    },
+    {
+      "role": "assistant",
+      "content": "CSS stands for Cascading Style Sheets, and its primary purpose is to separate a website's content from its visual design. While HTML provides the structural skeleton of a page, CSS acts as the skin, clothing, and makeup that defines how that structure looks to the user.",
+      "visual_content": {
+        "command": "DRAW_BOXES_AND_ARROWS",
+        "detail": "HTML (Structure), CSS (Style), Browser (Final Page): CSS applies design to HTML to create the Final Page."
+      },
+      "timestamp": "2026-02-08T23:01:09.276286"
+    }
+  ],
+  "biometric_baseline": null,
+  "barge_in_sensitivity": 0.7,
+  "persona": null,
+  "duration": 0,
+  "tutoring_step": 1,
+  "interview_state": {
+    "stage": "init",
+    "role": "",
+    "job_description": "",
+    "resume": "",
+    "started": false,
+    "start_time": null,
+    "question_count": 0,
+    "max_questions": 10,
+    "min_questions": 6,
+    "target_minutes": 10,
+    "max_minutes": 15,
+    "current_question": "",
+    "current_section": "",
+    "hint_used": false,
+    "last_question_time": null
+  },
+  "public_speaking_state": {
+    "stage": "init",
+    "speaking_type": "",
+    "topic": "",
+    "script": "",
+    "started": false,
+    "start_time": null,
+    "main_speech_start": null,
+    "followup_index": 0,
+    "followup_total": 3,
+    "word_count": 0,
+    "filler_count": 0,
+    "pause_count": 0,
+    "long_pause_count": 0
+  }
+}

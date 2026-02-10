@@ -1,0 +1,346 @@
+/* Container */
+.container {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #0a0a0a 0%, #000 50%, #0a0a0a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+    overflow: hidden;
+}
+
+/* Animated Background Orbs */
+.bgOrb1,
+.bgOrb2,
+.bgOrb3 {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.15;
+    animation: float 20s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.bgOrb1 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #FBBF24, transparent);
+    top: -200px;
+    left: -200px;
+}
+
+.bgOrb2 {
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, #F59E0B, transparent);
+    top: 50%;
+    right: -150px;
+    animation-delay: -5s;
+}
+
+.bgOrb3 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #FBBF24, transparent);
+    bottom: -200px;
+    left: 50%;
+    animation-delay: -10s;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    33% {
+        transform: translate(30px, -30px) scale(1.1);
+    }
+
+    66% {
+        transform: translate(-20px, 20px) scale(0.9);
+    }
+}
+
+/* Content */
+.content {
+    position: relative;
+    z-index: 10;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Badge */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(251, 191, 36, 0.1);
+    border: 1px solid rgba(251, 191, 36, 0.2);
+    border-radius: 2rem;
+    color: #FBBF24;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.badgeDot {
+    width: 8px;
+    height: 8px;
+    background: #FBBF24;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Title */
+.title {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.gradientText {
+    background: linear-gradient(90deg, #FCD34D 0%, #FBBF24 50%, #FCD34D 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+    color: #D1D5DB;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tags */
+.tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    color: #9CA3AF;
+    font-size: 0.875rem;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #FBBF24;
+}
+
+.dot {
+    color: #4B5563;
+}
+
+/* Cards Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.card {
+    position: relative;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.5rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.cardBlue:hover {
+    border-color: rgba(59, 130, 246, 0.5);
+    box-shadow: 0 20px 60px rgba(59, 130, 246, 0.2);
+}
+
+.cardYellow:hover {
+    border-color: rgba(251, 191, 36, 0.5);
+    box-shadow: 0 20px 60px rgba(251, 191, 36, 0.2);
+}
+
+.cardGreen:hover {
+    border-color: rgba(34, 197, 94, 0.5);
+    box-shadow: 0 20px 60px rgba(34, 197, 94, 0.2);
+}
+
+.cardIcon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.75rem;
+}
+
+.cardDesc {
+    font-size: 0.875rem;
+    color: #9CA3AF;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.cardArrow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #FBBF24;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.cardArrow svg {
+    transition: transform 0.3s;
+}
+
+.card:hover .cardArrow svg {
+    transform: translateX(4px);
+}
+
+/* Features */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.feature {
+    padding: 1.5rem 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    transition: all 0.3s;
+}
+
+.feature:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.featureIcon {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.featureLabel {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.25rem;
+}
+
+.featureSub {
+    font-size: 0.75rem;
+    color: #6B7280;
+}
+
+/* Disclaimer */
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.disclaimerIcon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #FBBF24;
+}
+
+.disclaimerSub {
+    font-size: 0.75rem;
+    color: #4B5563;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

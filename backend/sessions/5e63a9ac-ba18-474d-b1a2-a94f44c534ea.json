@@ -1,0 +1,1248 @@
+{
+  "session_id": "5e63a9ac-ba18-474d-b1a2-a94f44c534ea",
+  "user_id": "user_3z7lxm63b",
+  "mode": "tutoring",
+  "start_time": "2026-02-08T13:01:09.803981",
+  "end_time": "2026-02-08T13:03:11.499709",
+  "context_history": [
+    {
+      "role": "user",
+      "content": "I want to learn about: html. DO NOT greet me. Immediately start lesson Step 1 by explaining the core concept on the whiteboard.",
+      "visual_content": "",
+      "timestamp": "2026-02-08T13:01:23.759999"
+    },
+    {
+      "role": "assistant",
+      "content": "HTML, or HyperText Markup Language, is the standard markup language for creating web pages. It provides the structure of the webpage, which includes the content, headings, paragraphs, images, and links.",
+      "visual_content": {
+        "steps": [
+          "HTML: Structure of web pages",
+          "Uses tags to define elements",
+          "Browser interprets HTML to display content"
+        ]
+      },
+      "timestamp": "2026-02-08T13:01:25.419223"
+    },
+    {
+      "role": "user",
+      "content": "can you give me",
+      "visual_content": "",
+      "timestamp": "2026-02-08T13:01:43.916650"
+    },
+    {
+      "role": "assistant",
+      "content": "HTML uses 'elements' to define different parts of a webpage. An HTML element typically consists of a start tag, content, and an end tag.",
+      "visual_content": "<tag>Content</tag>",
+      "timestamp": "2026-02-08T13:01:45.374021"
+    },
+    {
+      "role": "user",
+      "content": "can you give me a picture",
+      "visual_content": "",
+      "timestamp": "2026-02-08T13:01:45.376505"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a visual representation of an HTML element. The start tag initiates the element, the content is what the user sees, and the end tag closes the element.",
+      "visual_content": "DRAW_BOXES_AND_ARROWS",
+      "timestamp": "2026-02-08T13:01:47.514681"
+    },
+    {
+      "role": "user",
+      "content": "can you do for example",
+      "visual_content": "",
+      "timestamp": "2026-02-08T13:02:10.589730"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's look at a paragraph element as an example.  The start tag is `<p>`, the content is 'This is a paragraph.', and the end tag is `</p>`. Together, these form the HTML element.",
+      "visual_content": "<p>This is a paragraph.</p>",
+      "timestamp": "2026-02-08T13:02:11.847722"
+    },
+    {
+      "role": "user",
+      "content": "can you do in baseball",
+      "visual_content": "",
+      "timestamp": "2026-02-08T13:02:34.500385"
+    },
+    {
+      "role": "assistant",
+      "content": "While HTML isn't directly used in baseball, we can use an analogy. Think of a baseball game as a webpage. The elements are like the different parts of the game.",
+      "visual_content": "DRAW_BOXES_AND_ARROWS",
+      "timestamp": "2026-02-08T13:02:39.531461"
+    },
+    {
+      "role": "user",
+      "content": "can you do website for",
+      "visual_content": "",
+      "timestamp": "2026-02-08T13:02:50.581559"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's use a website as our analogy. The overall website is like the HTML document, and the different sections of the website, like the header, navigation bar, main content, and footer, are analogous to HTML elements.",
+      "visual_content": "DRAW_BOXES_AND_ARROWS",
+      "timestamp": "2026-02-08T13:02:51.866113"
+    }
+  ],
+  "biometric_timeline": [
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.74934170192493,
+      "timestamp": "2026-02-08T13:01:26.637651"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 93.97978283496855,
+      "timestamp": "2026-02-08T13:01:27.647388"
+    },
+    {
+      "heart_rate": 76,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 95.76594882433672,
+      "timestamp": "2026-02-08T13:01:28.651697"
+    },
+    {
+      "heart_rate": 77,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 97.84076913948233,
+      "timestamp": "2026-02-08T13:01:29.660290"
+    },
+    {
+      "heart_rate": 76,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.29971970493314,
+      "timestamp": "2026-02-08T13:01:30.668686"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 95.19723644038662,
+      "timestamp": "2026-02-08T13:01:31.678894"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.7435399954545,
+      "timestamp": "2026-02-08T13:01:33.272414"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 95.00255997963849,
+      "timestamp": "2026-02-08T13:01:34.282000"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.63659748712827,
+      "timestamp": "2026-02-08T13:01:35.285876"
+    },
+    {
+      "heart_rate": 76,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 97.38176446810617,
+      "timestamp": "2026-02-08T13:01:36.295028"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.01949435247535,
+      "timestamp": "2026-02-08T13:01:37.301014"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 95.87934533216901,
+      "timestamp": "2026-02-08T13:01:38.303466"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.65593373909662,
+      "timestamp": "2026-02-08T13:01:39.314256"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.45329536886881,
+      "timestamp": "2026-02-08T13:01:41.171397"
+    },
+    {
+      "heart_rate": 77,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.90319946374959,
+      "timestamp": "2026-02-08T13:01:42.986767"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 98.6972491854448,
+      "timestamp": "2026-02-08T13:01:47.517724"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.34335149805953,
+      "timestamp": "2026-02-08T13:01:47.517845"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.9683602849069,
+      "timestamp": "2026-02-08T13:01:48.533587"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.7167582326614,
+      "timestamp": "2026-02-08T13:01:49.543136"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.67819442067443,
+      "timestamp": "2026-02-08T13:01:50.549229"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 93.60421979009507,
+      "timestamp": "2026-02-08T13:01:51.563664"
+    },
+    {
+      "heart_rate": 77,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 91.7832037814445,
+      "timestamp": "2026-02-08T13:01:52.566391"
+    },
+    {
+      "heart_rate": 78,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 89.69386470687353,
+      "timestamp": "2026-02-08T13:01:53.573076"
+    },
+    {
+      "heart_rate": 78,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 89.21177666172787,
+      "timestamp": "2026-02-08T13:01:54.582256"
+    },
+    {
+      "heart_rate": 78,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 90.97767520852415,
+      "timestamp": "2026-02-08T13:01:55.588745"
+    },
+    {
+      "heart_rate": 77,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.01458654115541,
+      "timestamp": "2026-02-08T13:01:57.214922"
+    },
+    {
+      "heart_rate": 76,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.13903756998106,
+      "timestamp": "2026-02-08T13:01:58.223201"
+    },
+    {
+      "heart_rate": 77,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.98982194409052,
+      "timestamp": "2026-02-08T13:01:59.226720"
+    },
+    {
+      "heart_rate": 77,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.54160632080996,
+      "timestamp": "2026-02-08T13:02:00.856318"
+    },
+    {
+      "heart_rate": 76,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 90.60980526083328,
+      "timestamp": "2026-02-08T13:02:01.864388"
+    },
+    {
+      "heart_rate": 76,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 93.01172973328332,
+      "timestamp": "2026-02-08T13:02:02.870663"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 93.0724306835636,
+      "timestamp": "2026-02-08T13:02:03.881442"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 91.78692864444567,
+      "timestamp": "2026-02-08T13:02:04.885286"
+    },
+    {
+      "heart_rate": 77,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.25428795201863,
+      "timestamp": "2026-02-08T13:02:05.887602"
+    },
+    {
+      "heart_rate": 76,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 95.13397318597838,
+      "timestamp": "2026-02-08T13:02:07.940398"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.41245089034875,
+      "timestamp": "2026-02-08T13:02:09.416075"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 96.45438084952391,
+      "timestamp": "2026-02-08T13:02:10.419743"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 97.62337847321433,
+      "timestamp": "2026-02-08T13:02:11.852936"
+    },
+    {
+      "heart_rate": 71,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 97.8377298521534,
+      "timestamp": "2026-02-08T13:02:13.068593"
+    },
+    {
+      "heart_rate": 71,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 98.89271427604658,
+      "timestamp": "2026-02-08T13:02:14.078325"
+    },
+    {
+      "heart_rate": 70,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 98.36662939567739,
+      "timestamp": "2026-02-08T13:02:16.012783"
+    },
+    {
+      "heart_rate": 69,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.41531570931954,
+      "timestamp": "2026-02-08T13:02:17.026754"
+    },
+    {
+      "heart_rate": 71,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.06060458672331,
+      "timestamp": "2026-02-08T13:02:18.029863"
+    },
+    {
+      "heart_rate": 72,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 96.35161490456117,
+      "timestamp": "2026-02-08T13:02:19.036409"
+    },
+    {
+      "heart_rate": 71,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 95.73467512421753,
+      "timestamp": "2026-02-08T13:02:20.047861"
+    },
+    {
+      "heart_rate": 72,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.51069558791214,
+      "timestamp": "2026-02-08T13:02:21.056017"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.19313870644685,
+      "timestamp": "2026-02-08T13:02:22.145354"
+    },
+    {
+      "heart_rate": 72,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 93.44761078288118,
+      "timestamp": "2026-02-08T13:02:23.151172"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.72630465633046,
+      "timestamp": "2026-02-08T13:02:24.162006"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 97.047277438204,
+      "timestamp": "2026-02-08T13:02:25.174088"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 98.35251586174746,
+      "timestamp": "2026-02-08T13:02:26.262631"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 99.04890931789147,
+      "timestamp": "2026-02-08T13:02:27.266024"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 100,
+      "timestamp": "2026-02-08T13:02:28.277708"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 100,
+      "timestamp": "2026-02-08T13:02:29.390041"
+    },
+    {
+      "heart_rate": 72,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 97.99028585518361,
+      "timestamp": "2026-02-08T13:02:30.394250"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 95.83087910893832,
+      "timestamp": "2026-02-08T13:02:32.030735"
+    },
+    {
+      "heart_rate": 72,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 97.29484646531732,
+      "timestamp": "2026-02-08T13:02:33.118154"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.53664110633383,
+      "timestamp": "2026-02-08T13:02:34.126991"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 96.36006477174985,
+      "timestamp": "2026-02-08T13:02:39.536497"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.95671873553657,
+      "timestamp": "2026-02-08T13:02:39.536634"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.54350383268776,
+      "timestamp": "2026-02-08T13:02:39.536716"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.12491637889542,
+      "timestamp": "2026-02-08T13:02:39.536766"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.86466231863369,
+      "timestamp": "2026-02-08T13:02:39.536813"
+    },
+    {
+      "heart_rate": 76,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 93.5824925178383,
+      "timestamp": "2026-02-08T13:02:40.759474"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.16593327392904,
+      "timestamp": "2026-02-08T13:02:41.771178"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 93.24132818179758,
+      "timestamp": "2026-02-08T13:02:42.776205"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 91.79292381274789,
+      "timestamp": "2026-02-08T13:02:43.781180"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.28461671074524,
+      "timestamp": "2026-02-08T13:02:45.765781"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 91.32149081176124,
+      "timestamp": "2026-02-08T13:02:48.145729"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 91.03752475996414,
+      "timestamp": "2026-02-08T13:02:49.159276"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 89.48970947988677,
+      "timestamp": "2026-02-08T13:02:50.162918"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 89.75817619104248,
+      "timestamp": "2026-02-08T13:02:51.871040"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 89.58593722213863,
+      "timestamp": "2026-02-08T13:02:53.091124"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 88.39468222402044,
+      "timestamp": "2026-02-08T13:02:54.094237"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 86.19960096848054,
+      "timestamp": "2026-02-08T13:02:55.574057"
+    },
+    {
+      "heart_rate": 72,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 84.26853541286502,
+      "timestamp": "2026-02-08T13:02:56.579587"
+    },
+    {
+      "heart_rate": 71,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 86.5625169936044,
+      "timestamp": "2026-02-08T13:02:57.590088"
+    },
+    {
+      "heart_rate": 69,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 88.48707490813804,
+      "timestamp": "2026-02-08T13:02:58.607340"
+    },
+    {
+      "heart_rate": 71,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 89.12704189160216,
+      "timestamp": "2026-02-08T13:02:59.621291"
+    },
+    {
+      "heart_rate": 73,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 89.85787024345153,
+      "timestamp": "2026-02-08T13:03:00.789626"
+    },
+    {
+      "heart_rate": 72,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 90.73304083933435,
+      "timestamp": "2026-02-08T13:03:01.796800"
+    },
+    {
+      "heart_rate": 72,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.39860788796038,
+      "timestamp": "2026-02-08T13:03:02.806288"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 91.24564735625837,
+      "timestamp": "2026-02-08T13:03:03.820210"
+    },
+    {
+      "heart_rate": 74,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 93.04291939469012,
+      "timestamp": "2026-02-08T13:03:04.836644"
+    },
+    {
+      "heart_rate": 76,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.48159412028804,
+      "timestamp": "2026-02-08T13:03:05.848395"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 93.89853471439454,
+      "timestamp": "2026-02-08T13:03:07.189156"
+    },
+    {
+      "heart_rate": 75,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 95.49113302310612,
+      "timestamp": "2026-02-08T13:03:08.194749"
+    }
+  ],
+  "interactions": [
+    {
+      "role": "user",
+      "content": "I want to learn about: html. DO NOT greet me. Immediately start lesson Step 1 by explaining the core concept on the whiteboard.",
+      "timestamp": "2026-02-08T13:01:23.759999"
+    },
+    {
+      "role": "assistant",
+      "content": "HTML, or HyperText Markup Language, is the standard markup language for creating web pages. It provides the structure of the webpage, which includes the content, headings, paragraphs, images, and links.",
+      "visual_content": {
+        "steps": [
+          "HTML: Structure of web pages",
+          "Uses tags to define elements",
+          "Browser interprets HTML to display content"
+        ]
+      },
+      "timestamp": "2026-02-08T13:01:25.419223"
+    },
+    {
+      "role": "user",
+      "content": "can you give me",
+      "timestamp": "2026-02-08T13:01:43.916650"
+    },
+    {
+      "role": "assistant",
+      "content": "HTML uses 'elements' to define different parts of a webpage. An HTML element typically consists of a start tag, content, and an end tag.",
+      "visual_content": "<tag>Content</tag>",
+      "timestamp": "2026-02-08T13:01:45.374021"
+    },
+    {
+      "role": "user",
+      "content": "can you give me a picture",
+      "timestamp": "2026-02-08T13:01:45.376505"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a visual representation of an HTML element. The start tag initiates the element, the content is what the user sees, and the end tag closes the element.",
+      "visual_content": "DRAW_BOXES_AND_ARROWS",
+      "timestamp": "2026-02-08T13:01:47.514681"
+    },
+    {
+      "role": "user",
+      "content": "can you do for example",
+      "timestamp": "2026-02-08T13:02:10.589730"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's look at a paragraph element as an example.  The start tag is `<p>`, the content is 'This is a paragraph.', and the end tag is `</p>`. Together, these form the HTML element.",
+      "visual_content": "<p>This is a paragraph.</p>",
+      "timestamp": "2026-02-08T13:02:11.847722"
+    },
+    {
+      "role": "user",
+      "content": "can you do in baseball",
+      "timestamp": "2026-02-08T13:02:34.500385"
+    },
+    {
+      "role": "assistant",
+      "content": "While HTML isn't directly used in baseball, we can use an analogy. Think of a baseball game as a webpage. The elements are like the different parts of the game.",
+      "visual_content": "DRAW_BOXES_AND_ARROWS",
+      "timestamp": "2026-02-08T13:02:39.531461"
+    },
+    {
+      "role": "user",
+      "content": "can you do website for",
+      "timestamp": "2026-02-08T13:02:50.581559"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's use a website as our analogy. The overall website is like the HTML document, and the different sections of the website, like the header, navigation bar, main content, and footer, are analogous to HTML elements.",
+      "visual_content": "DRAW_BOXES_AND_ARROWS",
+      "timestamp": "2026-02-08T13:02:51.866113"
+    }
+  ],
+  "biometric_baseline": {
+    "resting_heart_rate": 75.1,
+    "stress_threshold": 90.11999999999999,
+    "calibration_date": "2026-02-08T13:01:36.295053"
+  },
+  "barge_in_sensitivity": 0.7,
+  "persona": null,
+  "duration": 121.695728,
+  "tutoring_step": 6,
+  "interview_state": {
+    "stage": "init",
+    "role": "",
+    "job_description": "",
+    "resume": "",
+    "started": false,
+    "start_time": null,
+    "question_count": 0,
+    "max_questions": 10,
+    "min_questions": 6,
+    "target_minutes": 10,
+    "max_minutes": 15,
+    "current_question": "",
+    "current_section": "",
+    "hint_used": false,
+    "last_question_time": null
+  },
+  "public_speaking_state": {
+    "stage": "init",
+    "speaking_type": "",
+    "topic": "",
+    "script": "",
+    "started": false,
+    "start_time": null,
+    "main_speech_start": null,
+    "followup_index": 0,
+    "followup_total": 3,
+    "word_count": 0,
+    "filler_count": 0,
+    "pause_count": 0,
+    "long_pause_count": 0
+  }
+}

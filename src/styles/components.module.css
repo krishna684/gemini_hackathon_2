@@ -1,0 +1,411 @@
+/* Shared Component Styles - Premium Design System */
+
+/* Card Styles */
+.card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btnPrimary {
+    background: linear-gradient(135deg, #FBBF24, #F59E0B);
+    color: #000;
+    border-color: #FCD34D;
+    box-shadow: 0 4px 20px rgba(251, 191, 36, 0.3);
+}
+
+.btnPrimary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(251, 191, 36, 0.5);
+}
+
+.btnDanger {
+    background: rgba(239, 68, 68, 0.15);
+    color: #F87171;
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.btnDanger:hover {
+    background: rgba(239, 68, 68, 0.25);
+    border-color: rgba(239, 68, 68, 0.5);
+}
+
+/* Badges */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 2rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badgeSuccess {
+    background: rgba(34, 197, 94, 0.15);
+    border-color: rgba(34, 197, 94, 0.3);
+    color: #4ADE80;
+}
+
+.badgeWarning {
+    background: rgba(234, 179, 8, 0.15);
+    border-color: rgba(234, 179, 8, 0.3);
+    color: #FBBF24;
+}
+
+/* Metrics */
+.metric {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.metricLabel {
+    font-size: 0.75rem;
+    color: #9CA3AF;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.metricValue {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+}
+
+.metricUnit {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9CA3AF;
+    margin-left: 0.5rem;
+}
+
+/* Progress Bars */
+.progressBar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.progressFill {
+    height: 100%;
+    background: linear-gradient(90deg, #FBBF24, #FCD34D);
+    border-radius: 1rem;
+    transition: width 0.5s ease;
+    position: relative;
+}
+
+.progressFill::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    to {
+        transform: translateX(100%);
+    }
+}
+
+/* Spinner */
+.spinner {
+    width: 48px;
+    height: 48px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-top-color: #FBBF24;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Status Indicators */
+.statusIndicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    animation: pulse 2s infinite;
+}
+
+.statusIndicator::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    opacity: 0;
+    animation: ripple 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.statusLow {
+    background: #4ADE80;
+    color: #4ADE80;
+    box-shadow: 0 0 16px rgba(74, 222, 128, 0.6);
+}
+
+.statusMedium {
+    background: #FBBF24;
+    color: #FBBF24;
+    box-shadow: 0 0 16px rgba(251, 191, 36, 0.6);
+}
+
+.statusHigh {
+    background: #F87171;
+    color: #F87171;
+    box-shadow: 0 0 16px rgba(248, 113, 113, 0.6);
+}
+
+/* Waveform */
+.waveformBar {
+    width: 4px;
+    min-height: 30%;
+    background: linear-gradient(180deg, #FCD34D, #FBBF24);
+    border-radius: 1rem;
+    animation: waveform 1s ease-in-out infinite;
+}
+
+@keyframes waveform {
+
+    0%,
+    100% {
+        height: 30%;
+    }
+
+    50% {
+        height: 100%;
+    }
+}
+
+.waveformBar:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.waveformBar:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.waveformBar:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.waveformBar:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.waveformBar:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+/* Text Styles */
+.textWhite {
+    color: #fff;
+}
+
+.textGray400 {
+    color: #9CA3AF;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+/* Spacing */
+.spaceY4>*+* {
+    margin-top: 1rem;
+}
+
+.spaceY2>*+* {
+    margin-top: 0.5rem;
+}
+
+.mb4 {
+    margin-bottom: 1rem;
+}
+
+.mt2 {
+    margin-top: 0.5rem;
+}
+
+.px4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Layout */
+.flex {
+    display: flex;
+}
+
+.flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gap2 {
+    gap: 0.5rem;
+}
+
+.gap4 {
+    gap: 1rem;
+}
+
+/* Grid */
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+/* Typography */
+.textXl {
+    font-size: 1.25rem;
+}
+
+.textLg {
+    font-size: 1.125rem;
+}
+
+.textSm {
+    font-size: 0.875rem;
+}
+
+.textXs {
+    font-size: 0.75rem;
+}
+
+.fontSemibold {
+    font-weight: 600;
+}
+
+.fontBold {
+    font-weight: 700;
+}
+
+/* Video/Canvas */
+.video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aspectVideo {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: #000;
+}
+
+/* Overlays */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(0.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Utilities */
+.hidden {
+    display: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.wFull {
+    width: 100%;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}

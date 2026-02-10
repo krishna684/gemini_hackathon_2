@@ -1,0 +1,73 @@
+{
+  "session_id": "1f32f0b3-e36d-4302-b0ad-3ca5a22ba032",
+  "user_id": "user_gc2e6r0zf",
+  "mode": "public_speaking",
+  "start_time": "2026-02-08T22:27:09.396244",
+  "end_time": null,
+  "context_history": [
+    {
+      "role": "user",
+      "content": "yes",
+      "visual_content": "",
+      "timestamp": "2026-02-08T22:27:42.372765"
+    }
+  ],
+  "biometric_timeline": [
+    {
+      "heart_rate": 42,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 92.86480119672396,
+      "timestamp": "2026-02-08T22:27:41.521005"
+    }
+  ],
+  "interactions": [
+    {
+      "role": "user",
+      "content": "yes",
+      "timestamp": "2026-02-08T22:27:42.372765"
+    }
+  ],
+  "biometric_baseline": null,
+  "barge_in_sensitivity": 0.7,
+  "persona": null,
+  "duration": 0,
+  "tutoring_step": 0,
+  "interview_state": {
+    "stage": "init",
+    "role": "",
+    "job_description": "",
+    "resume": "",
+    "started": false,
+    "start_time": null,
+    "question_count": 0,
+    "max_questions": 10,
+    "min_questions": 6,
+    "target_minutes": 10,
+    "max_minutes": 15,
+    "current_question": "",
+    "current_section": "",
+    "hint_used": false,
+    "last_question_time": null
+  },
+  "public_speaking_state": {
+    "stage": "warmup",
+    "speaking_type": "Pitch",
+    "topic": "startup",
+    "script": "",
+    "started": true,
+    "start_time": "2026-02-08T22:27:42.374356",
+    "main_speech_start": null,
+    "followup_index": 0,
+    "followup_total": 3,
+    "word_count": 0,
+    "filler_count": 0,
+    "pause_count": 0,
+    "long_pause_count": 0
+  }
+}

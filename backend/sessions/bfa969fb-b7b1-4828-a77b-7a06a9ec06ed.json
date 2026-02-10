@@ -1,0 +1,478 @@
+{
+  "session_id": "bfa969fb-b7b1-4828-a77b-7a06a9ec06ed",
+  "user_id": "user_fn2ysx6gn",
+  "mode": "tutoring",
+  "start_time": "2026-02-08T23:16:07.746553",
+  "end_time": null,
+  "context_history": [
+    {
+      "role": "user",
+      "content": "I want to learn about: css. DO NOT greet me. Immediately start lesson Step 1 by explaining the core concept on the whiteboard.",
+      "visual_content": "",
+      "timestamp": "2026-02-08T23:16:16.207007"
+    },
+    {
+      "role": "assistant",
+      "content": "CSS stands for Cascading Style Sheets, and it is the language used to describe the presentation of a document written in HTML. While HTML provides the raw structure (like the bones of a building), CSS provides the styling (like the paint, windows, and decorations).",
+      "visual_content": {
+        "command": "DRAW_BOXES_AND_ARROWS",
+        "detail": "HTML (Structure), CSS (Presentation), Browser (Final Website), CSS acts as a layer that transforms raw structure into a visual experience."
+      },
+      "timestamp": "2026-02-08T23:16:32.269236"
+    },
+    {
+      "role": "user",
+      "content": "interview more examples",
+      "visual_content": "",
+      "timestamp": "2026-02-08T23:16:53.434330"
+    },
+    {
+      "role": "assistant",
+      "content": "In a CSS rule, the 'selector' identifies which HTML elements to target, followed by a declaration block in curly braces. Each declaration consists of a property and a value, which defines exactly what aspect of the element should change.",
+      "visual_content": "selector { property: value; }",
+      "timestamp": "2026-02-08T23:17:12.059342"
+    }
+  ],
+  "biometric_timeline": [
+    {
+      "heart_rate": 165,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 100,
+      "timestamp": "2026-02-08T23:16:32.271348"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 100,
+      "timestamp": "2026-02-08T23:16:32.271475"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 98.85833539026919,
+      "timestamp": "2026-02-08T23:16:32.271554"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 88.03198149762984,
+      "timestamp": "2026-02-08T23:16:32.271624"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 69.28506099000339,
+      "timestamp": "2026-02-08T23:16:32.271690"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 66.95475775847058,
+      "timestamp": "2026-02-08T23:16:32.271779"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 66.01878296953105,
+      "timestamp": "2026-02-08T23:16:32.271872"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 64.52489606235866,
+      "timestamp": "2026-02-08T23:16:32.271939"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 63.551143875093594,
+      "timestamp": "2026-02-08T23:16:32.272021"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.4317547619165,
+      "timestamp": "2026-02-08T23:16:32.272098"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 61.39549495516276,
+      "timestamp": "2026-02-08T23:16:32.272211"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 61.552905277959105,
+      "timestamp": "2026-02-08T23:16:33.030138"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.55271640874712,
+      "timestamp": "2026-02-08T23:16:34.081002"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.471139839030535,
+      "timestamp": "2026-02-08T23:16:35.113758"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.46930167052152,
+      "timestamp": "2026-02-08T23:16:36.129222"
+    },
+    {
+      "heart_rate": 166,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.56744455901092,
+      "timestamp": "2026-02-08T23:16:37.145449"
+    },
+    {
+      "heart_rate": 129,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 62.613517981724705,
+      "timestamp": "2026-02-08T23:16:38.195439"
+    },
+    {
+      "heart_rate": 129,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 62.760080670130385,
+      "timestamp": "2026-02-08T23:16:39.246463"
+    },
+    {
+      "heart_rate": 129,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 62.81851763340855,
+      "timestamp": "2026-02-08T23:16:40.280532"
+    },
+    {
+      "heart_rate": 103,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 62.93565516915453,
+      "timestamp": "2026-02-08T23:16:41.295684"
+    },
+    {
+      "heart_rate": 86,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 62.79989741246441,
+      "timestamp": "2026-02-08T23:16:42.329185"
+    },
+    {
+      "heart_rate": 86,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 64.80962231568975,
+      "timestamp": "2026-02-08T23:16:43.379102"
+    },
+    {
+      "heart_rate": 53,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 72.3083988475665,
+      "timestamp": "2026-02-08T23:16:44.410976"
+    },
+    {
+      "heart_rate": 53,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 76.06520197361876,
+      "timestamp": "2026-02-08T23:16:45.427286"
+    },
+    {
+      "heart_rate": 53,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 77.28722788311009,
+      "timestamp": "2026-02-08T23:16:46.461772"
+    },
+    {
+      "heart_rate": 53,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 77.28088393469815,
+      "timestamp": "2026-02-08T23:16:47.476662"
+    },
+    {
+      "heart_rate": 53,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 76.90787998178453,
+      "timestamp": "2026-02-08T23:16:48.492715"
+    },
+    {
+      "heart_rate": 49,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 75.01229901245243,
+      "timestamp": "2026-02-08T23:16:49.512097"
+    },
+    {
+      "heart_rate": 46,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 65.79461127497211,
+      "timestamp": "2026-02-08T23:16:50.544496"
+    },
+    {
+      "heart_rate": 45,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 62.98332352518163,
+      "timestamp": "2026-02-08T23:16:51.544451"
+    },
+    {
+      "heart_rate": 43,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 62.253013263405,
+      "timestamp": "2026-02-08T23:16:52.559880"
+    }
+  ],
+  "interactions": [
+    {
+      "role": "user",
+      "content": "I want to learn about: css. DO NOT greet me. Immediately start lesson Step 1 by explaining the core concept on the whiteboard.",
+      "timestamp": "2026-02-08T23:16:16.207007"
+    },
+    {
+      "role": "assistant",
+      "content": "CSS stands for Cascading Style Sheets, and it is the language used to describe the presentation of a document written in HTML. While HTML provides the raw structure (like the bones of a building), CSS provides the styling (like the paint, windows, and decorations).",
+      "visual_content": {
+        "command": "DRAW_BOXES_AND_ARROWS",
+        "detail": "HTML (Structure), CSS (Presentation), Browser (Final Website), CSS acts as a layer that transforms raw structure into a visual experience."
+      },
+      "timestamp": "2026-02-08T23:16:32.269236"
+    },
+    {
+      "role": "user",
+      "content": "interview more examples",
+      "timestamp": "2026-02-08T23:16:53.434330"
+    },
+    {
+      "role": "assistant",
+      "content": "In a CSS rule, the 'selector' identifies which HTML elements to target, followed by a declaration block in curly braces. Each declaration consists of a property and a value, which defines exactly what aspect of the element should change.",
+      "visual_content": "selector { property: value; }",
+      "timestamp": "2026-02-08T23:17:12.059342"
+    }
+  ],
+  "biometric_baseline": {
+    "resting_heart_rate": 165.9,
+    "stress_threshold": 199.08,
+    "calibration_date": "2026-02-08T23:16:32.272115"
+  },
+  "barge_in_sensitivity": 0.7,
+  "persona": null,
+  "duration": 0,
+  "tutoring_step": 2,
+  "interview_state": {
+    "stage": "init",
+    "role": "",
+    "job_description": "",
+    "resume": "",
+    "started": false,
+    "start_time": null,
+    "question_count": 0,
+    "max_questions": 10,
+    "min_questions": 6,
+    "target_minutes": 10,
+    "max_minutes": 15,
+    "current_question": "",
+    "current_section": "",
+    "hint_used": false,
+    "last_question_time": null
+  },
+  "public_speaking_state": {
+    "stage": "init",
+    "speaking_type": "",
+    "topic": "",
+    "script": "",
+    "started": false,
+    "start_time": null,
+    "main_speech_start": null,
+    "followup_index": 0,
+    "followup_total": 3,
+    "word_count": 0,
+    "filler_count": 0,
+    "pause_count": 0,
+    "long_pause_count": 0
+  }
+}

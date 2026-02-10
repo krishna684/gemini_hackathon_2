@@ -1,0 +1,232 @@
+{
+  "session_id": "77f479c0-d79a-48e9-9f79-c9d1b315dda9",
+  "user_id": "user_n2i7cjcdj",
+  "mode": "public_speaking",
+  "start_time": "2026-02-08T21:38:42.796363",
+  "end_time": "2026-02-08T21:39:24.654125",
+  "context_history": [],
+  "biometric_timeline": [
+    {
+      "heart_rate": 46,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 94.23548257529168,
+      "timestamp": "2026-02-08T21:39:09.570881"
+    },
+    {
+      "heart_rate": 46,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 91.76366515239468,
+      "timestamp": "2026-02-08T21:39:10.589834"
+    },
+    {
+      "heart_rate": 46,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 86.1618849133295,
+      "timestamp": "2026-02-08T21:39:11.601756"
+    },
+    {
+      "heart_rate": 46,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 83.43388537842489,
+      "timestamp": "2026-02-08T21:39:12.622283"
+    },
+    {
+      "heart_rate": 46,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 76.12738630245344,
+      "timestamp": "2026-02-08T21:39:13.634909"
+    },
+    {
+      "heart_rate": 46,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 72.09384549458406,
+      "timestamp": "2026-02-08T21:39:14.669623"
+    },
+    {
+      "heart_rate": 46,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 66.58635995006134,
+      "timestamp": "2026-02-08T21:39:15.684757"
+    },
+    {
+      "heart_rate": 46,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 61.77766394853131,
+      "timestamp": "2026-02-08T21:39:16.733678"
+    },
+    {
+      "heart_rate": 47,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 60.514749291759586,
+      "timestamp": "2026-02-08T21:39:17.788091"
+    },
+    {
+      "heart_rate": 47,
+      "stress_level": "low",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.45150992545912,
+      "timestamp": "2026-02-08T21:39:18.817487"
+    },
+    {
+      "heart_rate": 53,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.37314570720156,
+      "timestamp": "2026-02-08T21:39:19.852750"
+    },
+    {
+      "heart_rate": 55,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.27892525291466,
+      "timestamp": "2026-02-08T21:39:20.871383"
+    },
+    {
+      "heart_rate": 62,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 60.17950500341964,
+      "timestamp": "2026-02-08T21:39:21.916797"
+    },
+    {
+      "heart_rate": 65,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 100,
+      "confidence_level": 60.19552516449619,
+      "timestamp": "2026-02-08T21:39:22.951230"
+    },
+    {
+      "heart_rate": 86,
+      "stress_level": "medium",
+      "gaze_direction": [
+        0,
+        0,
+        0
+      ],
+      "posture_score": 60,
+      "confidence_level": 60.25249608643221,
+      "timestamp": "2026-02-08T21:39:23.966952"
+    }
+  ],
+  "interactions": [],
+  "biometric_baseline": {
+    "resting_heart_rate": 46.2,
+    "stress_threshold": 55.440000000000005,
+    "calibration_date": "2026-02-08T21:39:18.817520"
+  },
+  "barge_in_sensitivity": 0.7,
+  "persona": null,
+  "duration": 41.857762,
+  "tutoring_step": 0,
+  "interview_state": {
+    "stage": "init",
+    "role": "",
+    "job_description": "",
+    "resume": "",
+    "started": false,
+    "start_time": null,
+    "question_count": 0,
+    "max_questions": 10,
+    "min_questions": 6,
+    "target_minutes": 10,
+    "max_minutes": 15,
+    "current_question": "",
+    "current_section": "",
+    "hint_used": false,
+    "last_question_time": null
+  },
+  "public_speaking_state": {
+    "stage": "ready",
+    "speaking_type": "Presentation",
+    "topic": "The Future of AI in Agriculture",
+    "script": "",
+    "started": false,
+    "start_time": null,
+    "main_speech_start": null,
+    "followup_index": 0,
+    "followup_total": 3,
+    "word_count": 0,
+    "filler_count": 0,
+    "pause_count": 0,
+    "long_pause_count": 0
+  }
+}
