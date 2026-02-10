@@ -30,18 +30,11 @@ load_dotenv()
 # Initialize FastAPI app
 app = FastAPI(title="Socratic Mirror Agent API", version="1.0.0")
 
-# CORS configuration
-_frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000").rstrip("/")
-_allowed_origins = [
-    "http://localhost:3000",
-    "http://localhost:3001",
-    _frontend_url,
-]
-
+# CORS configuration — allow all origins for hackathon demo
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=_allowed_origins,
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
