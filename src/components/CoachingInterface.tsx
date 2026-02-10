@@ -13,9 +13,13 @@ export default function CoachingInterface() {
     const [mode, setMode] = useState<CoachingMode>('tutoring');
     const [isSessionActive, setIsSessionActive] = useState(false);
     const [biometricData, setBiometricData] = useState<BiometricData | null>(null);
-    const [avatarState, setAvatarState] = useState({
-        expression: 'neutral' as const,
-        gesture: 'idle' as const,
+    const [avatarState, setAvatarState] = useState<{
+        expression: 'neutral' | 'happy' | 'thinking' | 'concerned' | 'excited';
+        gesture: 'idle' | 'greeting' | 'explaining' | 'pointing';
+        isSpeaking: boolean;
+    }>({
+        expression: 'neutral',
+        gesture: 'idle',
         isSpeaking: false,
     });
     const [showReport, setShowReport] = useState(false);
@@ -100,13 +104,15 @@ export default function CoachingInterface() {
         }
     };
 
-    const handleAudioData = (audioData: any) => {
+    const handleAudioEvent = (event: import('./AudioProcessor').AudioEvent) => {
         if (ws && ws.readyState === WebSocket.OPEN) {
-            ws.send(JSON.stringify({
-                type: 'audio',
-                payload: audioData,
-                timestamp: Date.now(),
-            }));
+            if (event.kind === 'utterance') {
+                ws.send(JSON.stringify({
+                    type: 'user_speech',
+                    transcript: event.text,
+                    timestamp: Date.now(),
+                }));
+            }
         }
     };
 
@@ -331,7 +337,7 @@ export default function CoachingInterface() {
                     {/* Controls - Sidebar */}
                     <div className="lg:col-span-5 space-y-6 h-full overflow-y-auto custom-scrollbar">
                         <BiometricMonitor onBiometricUpdate={handleBiometricUpdate} />
-                        <AudioProcessor onAudioData={handleAudioData} />
+                        <AudioProcessor onAudioEvent={handleAudioEvent} />
                         <SessionControls mode={mode} />
                     </div>
                 </div>
