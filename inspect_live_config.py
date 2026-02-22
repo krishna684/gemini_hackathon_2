@@ -1,3 +1,4 @@
+# This file is part of the Socratic Mirror hackathon project.
 
 try:
     from google.genai import types

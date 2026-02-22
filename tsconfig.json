@@ -1,3 +1,4 @@
+// TypeScript configuration for Socratic Mirror hackathon project.
 {
     "compilerOptions": {
         "target": "ES2020",

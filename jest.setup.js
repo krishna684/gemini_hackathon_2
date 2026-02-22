@@ -1,3 +1,4 @@
+// Jest setup for Socratic Mirror hackathon project.
 import '@testing-library/jest-dom';
 
 // Mock browser APIs that may not be available in test environment

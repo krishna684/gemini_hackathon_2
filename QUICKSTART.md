@@ -1,3 +1,4 @@
+# Quickstart guide for Socratic Mirror hackathon project.
 # Socratic Mirror Agent - Quick Start Guide
 
 ## What is this?

@@ -1,3 +1,4 @@
+// Jest configuration for Socratic Mirror hackathon project.
 module.exports = {
     preset: 'ts-jest',
     testEnvironment: 'jsdom',

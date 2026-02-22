@@ -1,3 +1,4 @@
+// Tailwind CSS configuration for Socratic Mirror hackathon project.
 import type { Config } from "tailwindcss";
 
 const config: Config = {

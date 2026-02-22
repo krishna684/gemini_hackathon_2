@@ -1,3 +1,4 @@
+// Next.js configuration for Socratic Mirror hackathon project.
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     webpack: (config) => {

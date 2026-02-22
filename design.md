@@ -1,3 +1,4 @@
+# Design notes for Socratic Mirror hackathon project.
 # Design Document: Socratic Mirror Agent
 
 ## Overview

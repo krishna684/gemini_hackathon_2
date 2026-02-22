@@ -1,3 +1,4 @@
+# This file is part of the Socratic Mirror hackathon project.
 
 from google import genai
 import os
