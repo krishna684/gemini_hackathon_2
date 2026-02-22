@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(npm run build:*)",
-      "WebFetch(domain:geminihackathon2-production-4687.up.railway.app)"
-    ]
-  }
-}
