@@ -51,3 +51,4 @@ backend/*.sqlite3
 .idea/
 *.swp
 *.swo
+studentsafety-companion
