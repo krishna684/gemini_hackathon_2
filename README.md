@@ -1,4 +1,3 @@
-# Socratic Mirror hackathon project README.
 # Socratic Mirror Agent
 
 AI-powered multimodal coaching system with real-time biometric feedback, voice interaction, and a 3D avatar — built for Gemini hackathon.
